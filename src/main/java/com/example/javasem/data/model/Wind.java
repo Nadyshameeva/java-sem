@@ -7,10 +7,10 @@ import lombok.Getter;
 @Data
 @Getter
 public class Wind {
-    @Expose
+    
     private Double speed;
 
-    @Expose
+    
     private Double deg;
 
     public String getDirection() {

@@ -6,16 +6,16 @@
 <?import javafx.geometry.Insets?>
 
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javasem.WeatherController" spacing="15" alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/8.0.171"
-      style="-fx-background-color: blue; -fx-text-fill: white;">
+      style="-fx-background-color: #57a5bd; -fx-text-fill: white;">
     <padding>
         <Insets top="20" right="20" bottom="20" left="20"/>
     </padding>
 
     <!-- ScrollPane для прокрутки содержимого -->
-    <ScrollPane fitToWidth="true" fitToHeight="true" style="-fx-background-color: blue;">
+    <ScrollPane fitToWidth="true" fitToHeight="true" style="-fx-background-color: #57a5bd;">
         <content>
             <!-- Все содержимое, которое должно прокручиваться -->
-            <VBox spacing="15" alignment="CENTER_LEFT" style="-fx-background-color: blue;">
+            <VBox spacing="15" alignment="CENTER_LEFT" style="-fx-background-color: #57a5bd;">
                 <HBox spacing="10" alignment="CENTER">
                     <TextField fx:id="cityInput" promptText="Введите город"/>
                     <Button text="Получить прогноз" onAction="#handleGetWeather"/>

@@ -7,10 +7,10 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Weather {
-    @Expose
+    
     private String description;
 
-    @Expose
+    
     private String icon;
 
     public String getIcon() {

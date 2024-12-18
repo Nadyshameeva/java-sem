@@ -10,7 +10,7 @@ import java.util.List;
 
 @Data
 public class WeatherFewDays {
-    @Expose
+    
     List<WeatherCity> list;
 
     List<WeatherDay> weatherDays = new LinkedList<>();
